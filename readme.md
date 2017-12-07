@@ -8,6 +8,8 @@
 
 
 ![image](/Image/old.gif)
+
+
 但是我不会写pbr
 所以修改后的材质 在前向渲染中是blinn phong的，可能有些不一样。
 
