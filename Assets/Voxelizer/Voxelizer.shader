@@ -7,6 +7,9 @@
         _MainTex("Albedo", 2D) = "white" {}
         //_Glossiness("Smoothness", Range(0, 1)) = 0.5
         //[Gamma] _Metallic("Metallic", Range(0, 1)) = 0
+
+		[Toggle(IsVisibleBeforeEnter)] _IsVisibleBeforeEnter ("Is Visible Before Enter Effct?", Float) = 1
+
 		[Header(Gloss SpecColor)]
 		[MaterialToggle] _useSpec ("useSpec", Float ) = 0
 		_Gloss ("Gloss", Range(0, 1)) = 0.5
@@ -53,6 +56,7 @@
 			#pragma fragment frag
             #pragma multi_compile_prepassfinal noshadowmask nodynlightmap nodirlightmap nolightmap
 			#pragma multi_compile _FADEOUT_Y _FADEOUT_YN _FADEOUT_Z _FADEOUT_ZN _FADEOUT_X _FADEOUT_XN
+			#pragma shader_feature IsVisibleBeforeEnter
             #include "Voxelizer.cginc"
             ENDCG
         }
@@ -79,6 +83,7 @@
 			//#pragma multi_compile_prepassfinal noshadowmask nodynlightmap nodirlightmap nolightmap
             //#pragma multi_compile_fwdadd_fullshadows
             //#pragma multi_compile_fog
+			#pragma shader_feature IsVisibleBeforeEnter
 			#pragma multi_compile _FADEOUT_Y _FADEOUT_YN _FADEOUT_Z _FADEOUT_ZN _FADEOUT_X _FADEOUT_XN
 			#include "Voxelizer.cginc"
 
@@ -106,6 +111,7 @@
             //#pragma multi_compile_fwdadd_fullshadows
             //#pragma multi_compile_fog
 			#pragma multi_compile _FADEOUT_Y _FADEOUT_YN _FADEOUT_Z _FADEOUT_ZN _FADEOUT_X _FADEOUT_XN
+			#pragma shader_feature IsVisibleBeforeEnter
 			#include "Voxelizer.cginc"
 
 			ENDCG
@@ -132,6 +138,7 @@
             //#pragma multi_compile_fwdadd_fullshadows
             //#pragma multi_compile_fog
 			#pragma multi_compile _FADEOUT_Y _FADEOUT_YN _FADEOUT_Z _FADEOUT_ZN _FADEOUT_X _FADEOUT_XN
+			#pragma shader_feature IsVisibleBeforeEnter
 			#include "Voxelizer.cginc"
 
 			ENDCG

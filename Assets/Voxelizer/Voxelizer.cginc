@@ -225,11 +225,13 @@ inout TriangleStream<g2f> outStream)
 
 	if(relativeLocation < 0)
 	{
+#if defined(IsVisibleBeforeEnter)
 		///没有进入变形边界
 		outStream.Append(VertexOutput(v0));
 		outStream.Append(VertexOutput(v1));
 		outStream.Append(VertexOutput(v2));
 		outStream.RestartStrip();
+#endif
 		return;
 	}
 

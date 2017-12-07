@@ -8,7 +8,7 @@ Material:
   m_PrefabInternal: {fileID: 0}
   m_Name: Voxelizer
   m_Shader: {fileID: 4800000, guid: 891acf4518875a54ca8e9056f764216d, type: 3}
-  m_ShaderKeywords: _FADEOUT_ZN
+  m_ShaderKeywords: IsVisibleBeforeEnter _FADEOUT_ZN
   m_LightmapFlags: 4
   m_EnableInstancingVariants: 0
   m_DoubleSidedGI: 0
@@ -64,13 +64,12 @@ Material:
     - _DustMoveScale: 1
     - _EndTrans: 0.5
     - _FadeOut: 3
-    - _Gloss: 1
+    - _Gloss: 0.5
     - _GlossMapScale: 1
-    - _Glossiness: 1
-    - _Glossiness2: 0.519
+    - _Glossiness: 0.5
     - _GlossyReflections: 1
-    - _Metallic: 1
-    - _Metallic2: 0.585
+    - _IsVisibleBeforeEnter: 1
+    - _Metallic: 0
     - _Mode: 0
     - _OcclusionStrength: 1
     - _Parallax: 0.02
@@ -78,18 +77,13 @@ Material:
     - _SpecularHighlights: 1
     - _SrcBlend: 1
     - _StartTrans: 0.25
-    - _TTT: 0
     - _TriangleScale: 6
     - _UVSec: 0
-    - _Voxelize: 0
     - _ZWrite: 1
     - _useSpec: 0
     m_Colors:
-    - _Color: {r: 1, g: 1, b: 1, a: 0.766}
-    - _Color2: {r: 1, g: 1, b: 1, a: 1}
-    - _EdgeColor: {r: 0.36689016, g: 1.7205882, b: 1.664573, a: 1}
+    - _Color: {r: 1, g: 1, b: 1, a: 0.847}
+    - _EdgeColor: {r: 0, g: 2, b: 2, a: 1}
     - _EmissionColor: {r: 0, g: 0, b: 0, a: 1}
-    - _FaceColor: {r: 0.9411765, g: 0.05536332, b: 0.9167404, a: 0.872}
+    - _FaceColor: {r: 0, g: 0.5, b: 1, a: 0.734}
     - _SpecColor: {r: 1, g: 1, b: 1, a: 1}
-    - _SpecColor2: {r: 1, g: 1, b: 1, a: 1}
-    - _WireColor: {r: 3, g: 0, b: 0, a: 1}
