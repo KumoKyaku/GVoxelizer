@@ -285,31 +285,31 @@ Prefab:
       objectReference: {fileID: 0}
     - target: {fileID: 400002, guid: b0f140b9118c1b14ebfbe570b3ce941e, type: 3}
       propertyPath: m_LocalRotation.x
-      value: -0.00880118
+      value: -0.011798584
       objectReference: {fileID: 0}
     - target: {fileID: 400002, guid: b0f140b9118c1b14ebfbe570b3ce941e, type: 3}
       propertyPath: m_LocalRotation.y
-      value: 0.098531336
+      value: 0.119394146
       objectReference: {fileID: 0}
     - target: {fileID: 400002, guid: b0f140b9118c1b14ebfbe570b3ce941e, type: 3}
       propertyPath: m_LocalRotation.z
-      value: 0.0036333068
+      value: -0.0101345675
       objectReference: {fileID: 0}
     - target: {fileID: 400002, guid: b0f140b9118c1b14ebfbe570b3ce941e, type: 3}
       propertyPath: m_LocalRotation.w
-      value: 0.99508846
+      value: 0.99272513
       objectReference: {fileID: 0}
     - target: {fileID: 400002, guid: b0f140b9118c1b14ebfbe570b3ce941e, type: 3}
       propertyPath: m_LocalPosition.x
-      value: -0.00570035
+      value: -0.013199575
       objectReference: {fileID: 0}
     - target: {fileID: 400002, guid: b0f140b9118c1b14ebfbe570b3ce941e, type: 3}
       propertyPath: m_LocalPosition.y
-      value: 0.8490234
+      value: 0.85152227
       objectReference: {fileID: 0}
     - target: {fileID: 400002, guid: b0f140b9118c1b14ebfbe570b3ce941e, type: 3}
       propertyPath: m_LocalPosition.z
-      value: -0.054235697
+      value: -0.05822596
       objectReference: {fileID: 0}
     - target: {fileID: 13700000, guid: b0f140b9118c1b14ebfbe570b3ce941e, type: 3}
       propertyPath: m_Materials.Array.data[0]
@@ -419,7 +419,7 @@ Transform:
   m_PrefabInternal: {fileID: 0}
   m_GameObject: {fileID: 676739630}
   m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
-  m_LocalPosition: {x: 0, y: 0, z: 0}
+  m_LocalPosition: {x: 0, y: 0, z: -0.89}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_Children:
   - {fileID: 1817082494}
@@ -617,7 +617,7 @@ Camera:
   m_CullingMask:
     serializedVersion: 2
     m_Bits: 3221225471
-  m_RenderingPath: 3
+  m_RenderingPath: 1
   m_TargetTexture: {fileID: 0}
   m_TargetDisplay: 0
   m_TargetEye: 3
@@ -1013,11 +1013,11 @@ ReflectionProbe:
   m_PrefabParentObject: {fileID: 0}
   m_PrefabInternal: {fileID: 0}
   m_GameObject: {fileID: 1817082492}
-  m_Enabled: 1
+  m_Enabled: 0
   serializedVersion: 2
   m_Type: 0
   m_Mode: 0
-  m_RefreshMode: 0
+  m_RefreshMode: 1
   m_TimeSlicingMode: 0
   m_Resolution: 256
   m_UpdateFrequency: 0
@@ -1090,7 +1090,7 @@ Transform:
   m_PrefabInternal: {fileID: 0}
   m_GameObject: {fileID: 2086592244}
   m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
-  m_LocalPosition: {x: 0, y: 1, z: 0}
+  m_LocalPosition: {x: 0, y: 1, z: -0.83}
   m_LocalScale: {x: 1, y: 1, z: 2}
   m_Children: []
   m_Father: {fileID: 0}
